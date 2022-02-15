@@ -24,6 +24,16 @@ import { ClaveDigitalComponent } from './pages/clave-digital/clave-digital.compo
   ],
   imports: [
     CommonModule
+  ],
+  exports:[
+    MisProductosComponent,
+    TransferenciasComponent,
+    PagosComponent,
+    SolicitarProductosComponent,
+    OtrosServiciosComponent,
+    MisContactosComponent,
+    MiPerfilComponent,
+    ClaveDigitalComponent
   ]
 })
 export class PichinchaModule { }
